@@ -58,3 +58,13 @@ data/
 .idea/
 .DS_Store
 Thumbs.db
+
+# User uploads — real identity documents, never commit
+backend/static/uploads/**
+!backend/static/uploads/.gitkeep
+!backend/static/uploads/**/.gitkeep
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
