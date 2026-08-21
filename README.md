@@ -1,4 +1,4 @@
-# 🚗 SmartCarpoolingApp
+# 🚗 SYLO
 
 **Final Year Project by:**  
 - M. Mobeen Shoukat Ch  
