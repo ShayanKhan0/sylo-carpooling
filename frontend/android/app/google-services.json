@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "737107826319",
+    "project_id": "sylo-e895e",
+    "storage_bucket": "sylo-e895e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737107826319:android:a7d2edd81de756535942fa",
+        "android_client_info": {
+          "package_name": "com.example.sylo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbY7plDCHz8ZtSX_T8ePl2gTwWU-fElDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+# Safety AI Rules Configuration
+# Hot-reloadable rules for anomaly detection and escalation
+
+# ========== Off-Route Detection ==========
+off_route_threshold_m: 60  # Distance in meters to consider off-route
+off_route_min_consecutive: 3  # Minimum consecutive anomalous points
+off_route_min_seconds: 15  # Minimum duration to trigger alert
+
+# ========== Stop Detection ==========
+stop_minutes: 3  # Minutes of stopped state to trigger alert
+stop_speed_threshold_kmh: 1.0  # Speed below this is considered stopped
+
+# ========== Overspeed Detection ==========
+overspeed_kmh: 120  # Speed threshold for medium severity
+overspeed_high_kmh: 140  # Speed threshold for high severity
+
+# ========== ML Settings ==========
+ml_sensitivity: 0.7  # ML model sensitivity (0.0 - 1.0)
+ml_enabled: true  # Enable/disable ML-based detection
+ml_model_type: "isolation_forest"  # Model type: isolation_forest, lstm
+
+# ========== False Positive Suppression ==========
+false_positive_min_seconds: 15  # Minimum anomaly duration
+false_positive_min_consecutive: 3  # Minimum consecutive anomalous points
+
+# ========== Polyline Settings ==========
+polyline_max_alternates: 5  # Maximum alternate routes to compute
+polyline_cache_ttl_hours: 24  # Cache duration for polylines
+
+# ========== Escalation Settings ==========
+escalation_stage1_timeout_seconds: 60  # Time to wait for user response (Stage 1)
+escalation_stage2_timeout_seconds: 300  # Time before escalating to admin (Stage 2)
+escalation_auto_admin_severity: "high"  # Auto-escalate to admin at this severity
+
+# ========== Rapid Direction Change ==========
+rapid_direction_change_degrees: 45  # Degrees of bearing change
+rapid_direction_change_seconds: 5  # Time window for rapid change
+
+# ========== Driver Offline Detection ==========
+driver_offline_seconds: 180  # Seconds without telemetry to consider offline

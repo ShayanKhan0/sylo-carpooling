@@ -1,0 +1,10 @@
+{
+  "name": "SmartCarpoolingApp",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "dart-code.dart-code", "github.copilot"]
+    }
+  }
+}

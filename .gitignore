@@ -1,0 +1,60 @@
+﻿# Secrets — never commit
+.env
+.env.local
+.env.*.local
+*firebase-credentials*.json
+*firebase_credentials*.json
+*serviceAccount*.json
+*.pem
+*.p12
+*.key
+*.jks
+*.keystore
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Flutter / Dart
+frontend/build/
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+**/ephemeral/
+*.dill
+
+# Android
+frontend/android/.gradle/
+frontend/android/.kotlin/
+frontend/android/app/.cxx/
+frontend/android/local.properties
+*.apk
+*.aab
+
+# Logs & runtime junk
+*.log
+.runtime-logs/
+.codex-runtime/
+.edge-profile-*/
+
+# ML artifacts & data
+data/
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
