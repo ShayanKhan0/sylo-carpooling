@@ -5,7 +5,6 @@ A full-stack carpooling application for universities and workplaces, built as a 
 **Team:** M. Shayan Khan, M. Mobeen Shoukat Ch
 **My contribution:** backend and frontend development, and the ML matching and clustering engine.
 
-> **Note:** This repository is published as a code reference. The original Firebase project and Google Maps API credentials are no longer accessible, so the application cannot be run end-to-end from this repo. Required configuration is documented in `backend/.env.example`.
 
 ---
 
